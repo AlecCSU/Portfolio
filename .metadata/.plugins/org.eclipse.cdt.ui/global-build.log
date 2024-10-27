@@ -1,0 +1,44 @@
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread
+13:32:41 **** Clean-only build of configuration Debug for project Multithread ****
+rm -rf Multithread.exe src/Multithread.d src/Multithread.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\WorldPainter;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\alecj\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\alecj\AppData\Local\Programs\Python\Python311\;C:\Users\alecj\AppData\Local\Microsoft\WindowsApps;C:\Users\alecj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alecj\.dotnet\tools;C:\Users\alecj\AppData\Local\GitHubDesktop\bin;C:\Users\alecj\AppData\Roaming\npm]
+
+13:32:41 **** Clean-only build of configuration Debug for project Multithread ****
+13:32:54 **** Rebuild of configuration Debug for project Multithread ****
+Info: Internal Builder is used for build
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Multithread.o" "..\\src\\Multithread.cpp" 
+g++ -o Multithread.exe "src\\Multithread.o" 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Multithread.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:33:48 **** Clean-only build of configuration Debug for project Multithread ****
+rm -rf Multithread.exe src/Multithread.d src/Multithread.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\WorldPainter;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\alecj\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\alecj\AppData\Local\Programs\Python\Python311\;C:\Users\alecj\AppData\Local\Microsoft\WindowsApps;C:\Users\alecj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alecj\.dotnet\tools;C:\Users\alecj\AppData\Local\GitHubDesktop\bin;C:\Users\alecj\AppData\Roaming\npm]
+
+13:33:49 **** Clean-only build of configuration Debug for project Multithread ****
+13:35:01 **** Clean-only build of configuration Debug for project Multithread ****
+rm -rf Multithread.exe src/Multithread.d src/Multithread.o 
+Cannot run program "rm": Launching failed
+
+Error: Program "rm" not found in PATH
+PATH=[C:\MinGW\bin;\bin;\usr\bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\WorldPainter;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\MinGW\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\alecj\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\alecj\AppData\Local\Programs\Python\Python311\;C:\Users\alecj\AppData\Local\Microsoft\WindowsApps;C:\Users\alecj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\alecj\.dotnet\tools;C:\Users\alecj\AppData\Local\GitHubDesktop\bin;C:\Users\alecj\AppData\Roaming\npm]
+
+13:35:01 **** Clean-only build of configuration Debug for project Multithread ****
+13:35:01 **** Rebuild of configuration Debug for project Multithread ****
+Info: Internal Builder is used for build
+g++ -std=c++0x -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Multithread.o" "..\\src\\Multithread.cpp" 
+g++ -o Multithread.exe "src\\Multithread.o" 
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread
+Info: Nothing to build for Multithread

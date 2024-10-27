@@ -1,0 +1,39 @@
+#include <iostream>
+#include <thread>
+#include <mutex>
+#include <condition_variable>
+
+std::mutex mtx;
+std::condition_variable cv;
+bool firstThreadDone = false;
+
+void countUp() {
+    for (int i = 1; i <= 20; ++i) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Slow down for demonstration
+        std::lock_guard<std::mutex> lock(mtx);
+        std::cout << "Counting Up: " << i << std::endl;
+    }
+    std::lock_guard<std::mutex> lock(mtx);
+    firstThreadDone = true;
+    cv.notify_one(); // Notify the second thread to start
+}
+
+void countDown() {
+    std::unique_lock<std::mutex> lock(mtx);
+    cv.wait(lock, [] { return firstThreadDone; }); // Wait until countUp is done
+
+    for (int i = 20; i >= 0; --i) {
+        std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Slow down for demonstration
+        std::cout << "Counting Down: " << i << std::endl;
+    }
+}
+
+int main() {
+    std::thread t1(countUp);
+    std::thread t2(countDown);
+
+    t1.join();
+    t2.join();
+
+    return 0;
+}

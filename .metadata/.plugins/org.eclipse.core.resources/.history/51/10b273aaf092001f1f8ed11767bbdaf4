@@ -1,0 +1,21 @@
+#include <iostream>
+
+void countUp() {
+    for (int i = 1; i <= 20; ++i) {
+        std::cout << "Counting Up: " << i << std::endl;
+    }
+}
+
+void countDown() {
+    for (int i = 20; i >= 0; --i) {
+        std::cout << "Counting Down: " << i << std::endl;
+    }
+}
+
+int main() {
+    countUp();     // Count up first
+    countDown();   // Then count down
+
+    return 0;
+}
+
